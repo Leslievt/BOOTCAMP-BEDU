@@ -1,5 +1,5 @@
 body{
-    background-color: coral;
+    background-color: blueviolet;
     margin: 0;
 }
 nav{
@@ -28,4 +28,85 @@ nav{
 .mr-sm{
     margin-right: 10px;
     
+}
+.navbar {
+    background-color: #fffbf7;
+  }
+  
+  .navbar-light .nav-item .nav-link {
+    color: #025157;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border-color: #025157;
+  }
+  *{
+    font-family: 'Muli',sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.form-boot{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+
+/* Estilos en el header */
+
+  
+  .actions {
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .acccion > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .actions a{
+    color: #67b54b;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+.actions a:hover{
+    cursor: pointer;
+} 
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+ li{
+     display: inline;
+     list-style: none;
+     margin-left: 25px;
+     color:#025157;;
+ } 
+
+
+ .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
