@@ -110,3 +110,10 @@ button:hover{
     line-height: inherit;
     white-space: nowrap;
 }
+.video-container iframe{
+  margin-top: 50px;
+}
+.text-nav{
+  text-decoration: none;
+  font-size: 25px;
+}
