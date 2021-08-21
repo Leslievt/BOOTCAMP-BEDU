@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: #f4c0ee;
     margin: 0;
 }
 nav{
@@ -73,7 +73,7 @@ button:hover{
   }
   
   .actions a{
-    color: #67b54b;
+    color: #bf15ac;
     text-decoration: none;
     margin-right: 20px;
   }
@@ -84,7 +84,7 @@ button:hover{
   
   .actions button {
     color: white;
-    background-color: #67b54b;
+    background-color: #9b3e91;
     padding-left: 14px;
     padding-right: 14px;
     padding-top: 12px;
@@ -109,6 +109,13 @@ button:hover{
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+}
+.video-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .video-container iframe{
   margin-top: 50px;
